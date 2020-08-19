@@ -1,0 +1,335 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Gilroy-ExtraBold';
+    src: url('/fonts/gilroy-extrabold-webfont.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy-Light';
+    src: url('/fonts/gilroy-light-webfont.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000000;
+    transition: 0.2s;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'Gilroy-Light';
+    color: #070707;
+    font-weight: 800;
+    overflow-x: hidden;
+}
+
+hr {
+    margin: 0;
+}
+
+svg {
+    height: 90px;
+    width: 90px;
+}
+
+.container {
+    max-width: 945px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.title {
+    font-size: 34px;
+    line-height: 42px;
+    font-family: 'Gilroy-ExtraBold';
+}
+
+.header {
+    position: relative;
+}
+
+.header__burger {
+    position: absolute;
+    right: 10px;
+    top: 90px;
+    border: none;
+    background: none;
+    z-index: 2;
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    display: block;
+}
+
+.header__burger-line {
+    display: block;
+    background-color: black;
+    width: 100%;
+    height: 3px;
+    margin: 3px 0;
+    transition: 0.3s;
+}
+
+.header__burger-line-active:nth-child(1) {
+    display: block;
+    margin-top: 5px;
+    height: 3px;
+    transform: rotate(45deg);
+}
+
+.header__burger-line-active:nth-child(2) {
+    display: block;
+    margin-top: -6px;
+    height: 3px;
+    transform: rotate(-45deg);
+}
+
+.header__burger-line-active:nth-child(3) {
+    display: none;
+}
+
+.header__top {
+    font-family: 'Gilroy-ExtraBold';
+    font-weight: 100;
+    padding: 35px 0px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+}
+
+.header__menu-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 5px;
+}
+
+.menu__list-item {
+    display: inline-block;
+}
+
+.header__middle {
+    margin-top: 40px;
+}
+
+.header__middle-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.header__my-name {
+    font-size: 48px;
+    line-height: 59px;
+    color: #070707;
+    font-family: "Gilroy-ExtraBold";
+}
+
+.header__information {
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+}
+
+.header__lang {
+    transform: rotate(-90deg);
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+}
+
+.header__img {
+    margin-top: 30px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.header__img img {
+    width: 100%;
+}
+
+.about-me__text {
+    padding: 180px 0 105px 0;
+    text-align: center;
+    background: #F6F6F6;
+}
+
+.about-me__title {
+    margin-bottom: 18px;
+}
+
+.about-me__text-list {
+    margin: 0 auto;
+    max-width: 485px;
+}
+
+.about-me__list-item {
+    margin-bottom: 25px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.skills__inner {
+    padding: 90px 0 110px 0;
+}
+
+.skills__title {
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.skills__text {
+    margin-bottom: 85px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.skills_programms-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills__programm {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    min-height: 220px;
+}
+
+.programm__stars svg {
+    margin-right: 10px;
+    height: 20px;
+    width: 22px;
+}
+
+.programm__stars svg:last-child {
+    margin-right: 0px;
+}
+
+.portfolio {
+    background: #F6F6F6;
+    padding: 110px 0 95px 0;
+}
+
+.portfolio__img img {
+    width: 100%;
+}
+
+.portfolio__title {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.portfolio__link {
+    margin: 45px 0 100px 0;
+    text-align: center;
+    text-decoration-line: underline;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.portfolio__link a:hover {
+    color: #828282;
+    transition: 0.2s;
+}
+
+.portfolio__link:last-child {
+    margin: 45px 0 0px 0;
+}
+
+.contacts {
+    text-align: center;
+    padding: 130px 0 140px 0;
+}
+
+.contacts__text {
+    font-size: 18px;
+    line-height: 22px;
+    margin: 20px 0 30px 0;
+}
+
+.contacts__btn {
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 90px;
+}
+
+.contacts__btn:hover {
+    color: #000000;
+    background-color: #ffffff;
+    transition: 0.2s;
+    border: 2px solid #000000;
+}
+
+.contacts__socials {
+    display: flex;
+    justify-content: space-between;
+    max-width: 350px;
+    margin: 0 auto;
+    margin-bottom: 45px;
+    flex-wrap: wrap;
+}
+
+.contacts__like-me-on-text {
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+}
+
+.mobile__menu-wrapper {
+    height: 100%;
+    background: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    transform: translateX(200vw);
+    transition: all 1s;
+    font-size: 34px;
+    line-height: 42px;
+    color: #828282;
+    font-family: 'Gilroy-ExtraBold';
+    padding: 85px 0 0 25px;
+}
+
+.mobile__menu-list {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 350px;
+}
+
+.active {
+    transform: translateX(0);
+}

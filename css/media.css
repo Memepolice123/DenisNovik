@@ -1,0 +1,97 @@
+@media (max-width: 950px) {
+    .container {
+        padding: 0 20px;
+    }
+    .header__top {
+        font-size: 24px;
+    }
+    .header__my-name {
+        font-size: 60px;
+    }
+    .header__information {
+        font-size: 24px;
+    }
+    .header__lang {
+        font-size: 20px;
+    }
+    .title {
+        font-size: 42px;
+    }
+    .about-me__list-item {
+        font-size: 24px;
+    }
+    .portfolio__link {
+        font-size: 24px;
+    }
+    .programm__text {
+        font-size: 24px;
+    }
+    .contacts__text {
+        font-size: 24px;
+    }
+    .contacts__btn {
+        padding: 20px 50px;
+    }
+    .contacts__like-me-on-text {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 900px) {
+    .skills_programms-list {
+        display: block;
+    }
+    .skills__programm {
+        margin-top: 80px;
+    }
+}
+
+@media (min-width: 600px) {
+    .header__burger {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .header__top {
+        display: none;
+    }
+    .container {
+        max-width: none;
+        padding: 30px 0;
+        width: 100%;
+    }
+    .header__middle-inner {
+        flex-direction: column;
+        min-height: 200px;
+        align-items: flex-start;
+        padding-left: 12%;
+    }
+    .about-me__text {
+        padding: 180px 15px 105px;
+    }
+    .contacts__btn {
+        padding: 10px 100px;
+    }
+    .contacts__socials {
+        padding: 20px;
+    }
+    .contacts__text {
+        margin: 25px 0 40px 0;
+    }
+    .header__burger {
+        display: block;
+    }
+    hr {
+        display: none;
+    }
+    .header__lang {
+        position: absolute;
+        top: 525px;
+        right: 30px;
+        font-size: 34px;
+        line-height: 42px;
+        transform: rotate(90deg);
+        display: none;
+    }
+}
