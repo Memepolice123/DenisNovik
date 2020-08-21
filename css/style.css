@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: 'Gilroy-ExtraBold';
-    src: url('./fonts/gilroy-extrabold-webfont.woff2') format('woff2');
+    src: url('../fonts/gilroy-extrabold-webfont.woff2') format('woff2');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -14,7 +14,7 @@
 
 @font-face {
     font-family: 'Gilroy-Light';
-    src: url('/fonts/gilroy-light-webfont.woff2') format('woff2');
+    src: url('../fonts/gilroy-light-webfont.woff2') format('woff2');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
