@@ -68,6 +68,7 @@ svg {
 
 .header {
     position: relative;
+    overflow-x:hidden;
 }
 
 .header__burger {
