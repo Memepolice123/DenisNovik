@@ -29,11 +29,6 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    color: #000000;
-    transition: 0.2s;
-}
-
 ul {
     list-style: none;
 }
@@ -130,6 +125,10 @@ svg {
 .menu__list-item {
     display: inline-block;
 }
+
+.menu_list-item:hover{
+    color:#000000;
+    transition: all 0.5s;
 
 .header__middle {
     margin-top: 40px;
@@ -253,11 +252,11 @@ svg {
     text-decoration-line: underline;
     font-size: 18px;
     line-height: 22px;
+    transition: all 0.4s;
 }
 
 .portfolio__link a:hover {
     color: #828282;
-    transition: 0.2s;
 }
 
 .portfolio__link:last-child {
@@ -284,12 +283,12 @@ svg {
     font-size: 18px;
     line-height: 22px;
     margin-bottom: 90px;
+    transition: all 0.5s;
 }
 
 .contacts__btn:hover {
     color: #000000;
     background-color: #ffffff;
-    transition: 0.2s;
     border: 2px solid #000000;
 }
 
