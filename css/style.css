@@ -276,6 +276,7 @@ svg {
 }
 
 .contacts__btn {
+    display:inline-block;
     background-color: #000000;
     color: #ffffff;
     border: none;
