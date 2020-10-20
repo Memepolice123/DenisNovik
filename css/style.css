@@ -123,12 +123,12 @@ svg {
 }
 
 .menu__list-item {
+    transition: all 0.5s;
     display: inline-block;
 }
 
-.menu_list-item:hover{
+.menu_list-item a:hover{
     color:#000000;
-    transition: all 0.5s;
 }
 
 .header__middle {
