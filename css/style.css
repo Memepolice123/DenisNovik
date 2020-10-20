@@ -129,6 +129,7 @@ svg {
 .menu_list-item:hover{
     color:#000000;
     transition: all 0.5s;
+}
 
 .header__middle {
     margin-top: 40px;
